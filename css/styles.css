@@ -13,7 +13,7 @@
 }
 
 .sidenav {
-  background-color: lightgrey;
+  background-color: #f9f9f9;
   width: 100px;
   height: 100%;
   width: 160px;
@@ -26,4 +26,49 @@
 
 .logo {
   height:150px;
+}
+
+.headerlist {
+  float: right;
+  padding-top: 30px;
+}
+
+.tdpad {
+  padding: 10px;
+}
+
+.trpad {
+  padding: 30px;
+}
+
+.h2modg {
+  border: 1px solid;
+  border-color: lightgray;
+  padding: 2px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #cef2e0;
+  font-size: 18px;
+}
+
+.h2modb {
+  border: 1px solid;
+  border-color: lightgray;
+  padding: 2px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #cedff2;
+  font-size: 18px;
+}
+
+#greencol {
+  background-color: #f5fffa;
+}
+
+#bluecol {
+  background-color: #f5faff;
+}
+
+.archive {
+  text-align: right;
 }
