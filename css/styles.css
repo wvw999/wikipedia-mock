@@ -72,3 +72,12 @@
 .archive {
   text-align: right;
 }
+
+.right-float {
+  float: right;
+  text-align: right;
+}
+
+#small-text {
+  font-size: 11px;
+}
