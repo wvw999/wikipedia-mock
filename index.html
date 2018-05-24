@@ -7,54 +7,28 @@
 </head>
 <body>
   <div class="container">
-  <nav class="navbar navbar-default" id="main-header">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#" id="main-page">Main Page</a>
-        <ul class="nav navbar-nav" id="header">
-          <li><a href="#">Talk</a></li>
-        </ul>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <ul class="nav navbar-nav" id="header">
-              <li><a href="#">Read</a></li>
-              <li><a href="#">View source</a></li>
-              <li><a href="#">View history</a></li>
-            </ul>
-            <input type="text" class="form-control" placeholder="Search Wikipedia">
-          </div>
-        </form>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
   <div class="col-lg-2">
         <div class="fixed">
-          <img class="logo" src="img/wikipedia-picture.png"
-          <a href="#">Main page</a><br>
-          <a href="#">Contents
+          <img class="logo" src="img/wikipedia-picture.png">
+          <br><br>
+          <a href="#">Main page<br>
+          <a href="#">Contents<br>
           Featured content</a><br>
           <a href="#">Current events</a><br>
           <a href="#">Random article</a><br>
           <a href="#">Donate to Wikipedia</a><br>
           <a href="#">Wikipedia store</a><br>
-          <a href="#">Interaction</a><br>
-          <a href="#">Help</a><br>
+          <br>
+          <p class="subsections">Interaction<br>
+          <hr>
+          <a class="subsections" href="#">Help</a><br>
           <a href="#">About Wikipedia</a><br>
           <a href="#">Community portal</a><br>
           <a href="#">Recent changes</a><br>
           <a href="#">Contact page</a><br>
-          <a href="#">Tools</a><br>
+          <br>
+          <p>Tools<br>
+          <hr>
           <a href="#">What links here</a><br>
           <a href="#">Related changes</a><br>
           <a href="#">Upload file</a><br>
@@ -62,11 +36,15 @@
           <a href="#">Permanent link</a><br>
           <a href="#">Page information</a><br>
           <a href="#">Wikidata item</a><br>
-          <a href="#">Print/export</a><br>
+          <br>
+          <p>Print/export<br>
+          <hr>
           <a href="#">Create a book</a><br>
           <a href="#">Download as PDF</a><br>
           <a href="#">Printable version</a><br>
-          <a href="#">In other projects</a><br>
+          <br>
+          <p>In other projects<br>
+          <hr>
           <a href="#">Wikimedia Commons</a><br>
           <a href="#">MediaWiki</a><br>
           <a href="#">Meta-Wiki</a><br>
@@ -80,7 +58,8 @@
           <a href="#">Wikivoyage</a><br>
           <a href="#">Wiktionary</a><br>
           <br>
-          <a href="#">Languages</a><br>
+          <p>Languages<br>
+          <hr>
           <a href="#">العربية</a><br>
           <a href="#">Български</a><br>
           <a href="#">Bosanski</a><br>
@@ -126,11 +105,42 @@
           <a href="#">Українська</a><br>
           <a href="#">Tiếng Việt</a><br>
           <a href="#">中文</a><br>
-          <a href="#">Complete list</a><br>
+          <a href="#"><strong>Complete list</strong></a><br>
         </div>
       </div>
     </nav>
   <div class="col-lg-10">
+    <nav class="navbar navbar-default" id="main-header">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" id="main-page">Main Page</a>
+          <ul class="nav navbar-nav" id="header">
+            <li><a href="#">Talk</a></li>
+          </ul>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <ul class="nav navbar-nav" id="header">
+                <li><a href="#">Read</a></li>
+                <li><a href="#">View source</a></li>
+                <li><a href="#">View history</a></li>
+              </ul>
+              <input type="text" class="form-control" placeholder="Search Wikipedia">
+            </div>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <div class="row">
       <ul class="headerlist">
         <table>
@@ -153,7 +163,6 @@
       <h3>Welcome to <a href="#">Wikipedia</a>,</h3>
         <p>the free encyclopedia that anyone can edit.
           <br>5,655,156 articles in English
-
     </div>
     <div class="col-lg-7">
       <div class="well"  id="greencol">
@@ -216,12 +225,16 @@
       <div class="col-lg-12">
         <div class="well"  id="purpcol">
         <h2 class="h2modp">Today's featured picture</h2>
+        <div class="left-float">
+          <img height="250" src="img/storm.jpg">
+        </div>
         <p><a href="#"><strong>Hurrican Erika</strong></a>was a weak hurricane that struck extreme northeastern Mexico near the Texas-Tamaulipas border in mid-August of the 2003 Atlantic hurricane season. Initially, Erika was not designated a hurricane by the National Hurricane Center as initial data suggested winds of 70 mph (115 km/h) at peak intensity; only after later analysis was it revised to Category 1 intensity. While Erika's precursor disturbance was moving across Florida, it dropped heavy rainfall. In south Texas, Erika produced moderate winds of 50 to 60 mph (80 to 95 km/h) along with light rain, causing minor and isolated wind damage in the state. In northeastern Mexico, Erika produced moderate rainfall, resulting in mudslides and flooding, and two people were killed when their vehicle was swept away by floodwaters.
         <br>
-        Photograph: NASA, MODIS/LANCE, HDF File Data processed by Supportstorm
+        <p id="small-text">Photograph: NASA, MODIS/LANCE, HDF File Data processed by Supportstorm</p>
         <br>
-        Recently featured: Adoration of the Magi European robin juvenile Map from Stielers Handatlas
-        Archive More featured pictures
+        <p class="archive">Recently featured: <a href="#">Adoration of the Magi European robin juvenile Map from Stielers Handatlas
+        <br>
+        <strong>Archive &#8729; More featured pictures</strong>
         </p>
     </div>
     </div>

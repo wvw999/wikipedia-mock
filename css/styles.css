@@ -61,6 +61,16 @@
   font-size: 18px;
 }
 
+.h2modp {
+  border: 1px solid;
+  border-color: lightgray;
+  padding: 2px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #ddcef2;
+  font-size: 18px;
+}
+
 #greencol {
   background-color: #f5fffa;
 }
@@ -69,6 +79,9 @@
   background-color: #f5faff;
 }
 
+#purpcol {
+  background-color: #faf5ff;
+}
 .archive {
   text-align: right;
 }
@@ -78,6 +91,23 @@
   text-align: right;
 }
 
+.left-float {
+  float: left;
+  padding-right: 15px;
+}
+
 #small-text {
   font-size: 11px;
+}
+
+.greeting {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.subsections {
+  margin: 0;
+  padding: 0;
 }
